@@ -22,7 +22,7 @@ This project loads VIN–Part–Mapping data into Microsoft SQL Server and allow
    python nlp/vin_query_chain.py
 
 
-## ✅ Visible result in SSMS 
+## Visible result in SSMS 
 
 ![SSMS](media/ssms.png)
 

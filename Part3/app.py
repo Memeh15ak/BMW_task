@@ -1,6 +1,6 @@
 import streamlit as st
 from datetime import datetime
-from model.forecast import predict_buy_or_wait
+from model.forcast import predict_buy_or_wait
 
 st.set_page_config(page_title="Buy or Wait Advisor", page_icon="📈")
 

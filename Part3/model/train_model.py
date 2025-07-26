@@ -3,7 +3,7 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 import joblib
 
-df = pd.read_csv("data/part_prices.csv")
+df = pd.read_csv("Part3/data/part_prices.csv")
 df['date'] = pd.to_datetime(df['date'])
 df['month'] = df['date'].dt.month
 df['price_change'] = df['price_inr'].diff()
@@ -18,5 +18,5 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
 model = XGBClassifier()
 model.fit(X_train, y_train)
 
-joblib.dump(model, "model/pricing_model.pkl")
-print("✅ Model trained and saved.")
+joblib.dump(model, "Part3/model/pricing_model.pkl")
+print("Model trained and saved.")
