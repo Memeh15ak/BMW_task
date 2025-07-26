@@ -18,8 +18,8 @@ A backend system to scan and store genuine BMW part details via QR code, capturi
 
 ## ✅ Sample Scan Saved via Swagger
 
-![Fast api Success](Part1\media\Screenshot 2025-07-26 125217.png)
+![Fast api Success](Part1/media/Screenshot 2025-07-26 125217.png)
 
 ## ✅ Scan Visible in MongoDB Compass
 
-![MongoDB Compass](Part1\media\Screenshot 2025-07-26 125332.png)
+![MongoDB Compass](Part1/media/Screenshot 2025-07-26 125332.png)
