@@ -25,3 +25,9 @@ This project loads VIN–Part–Mapping data into Microsoft SQL Server and allow
 ## ✅ Visible result in SSMS 
 
 ![SSMS](media/ssms.png)
+
+## NLP to sql 
+
+![NLP](media/nlp.png)
+
+
